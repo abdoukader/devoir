@@ -1,0 +1,271 @@
+#conteneur{
+    
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    background: url("/home/thiam/Téléchargements/barcaa.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+body{
+    background:url("/home/thiam/Téléchargements/barcaaa.jpg")no-repeat;
+    background-size: cover;
+   
+}
+#header{
+    border:2px solid black;
+    margin: 4px;
+    border-spacing: 10px;
+    background: cadetblue;
+}
+
+#section{
+    border: 2px solid black;
+    margin: 4px;
+    margin-bottom: 10px;
+    widows: 100%;
+    height: 66%;
+    position: relative;
+}
+#footer{
+    
+    margin: 4px;
+    height: 10%;
+}
+#grand{
+    
+    margin: 4px;
+    margin-left: 10px;
+    height: 400px;
+    width: 70%;
+    margin-bottom: 0px;
+}
+#moyenne{
+   
+    
+    height: 230px;
+    width: 27%;
+    margin: 4px;
+    margin-left: 638px;
+    margin-top: -403px;
+}
+#petite{
+    margin-left: 638px;
+    height: 160px;
+    width: 27%;
+    margin-bottom: 0px;
+}
+.logo{
+    height: 90px;
+    width: 90px;
+}
+#header h2{
+    text-align: center;
+    float: right;
+    padding-right: 350px;
+    color: blue;
+    font-size: 30px;
+}
+.partie1{
+    border:2px solid black;
+    margin:4px;
+    width:282px;
+    height:50px;
+    line-height: 30px;
+    text-align: center;
+}
+.partie2{
+    border:2px solid black;
+    margin:4px;
+    width:310px;
+    height: 50px;
+    margin-left: 290PX;
+    margin-top: -58px;
+    line-height: 30px;
+    text-align: center;
+}
+.partie3{
+    border: 2px solid black;
+    margin: 4px;
+    width: 282px;
+    height: 50px;
+    margin-left: 600px;
+    margin-top: -58px;
+    line-height: 30px;
+    text-align: center;
+}
+#nav{
+    padding-right: 90px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 10%;
+    width: 89%;
+    display: block;
+}
+#nav ul{
+    margin: 0px;
+    padding: 0px;
+    line-height: 30px;
+}
+#nav li{
+    list-style: none;
+    float: left;
+    position: relative;
+    background-color: grey;
+}
+#nav ul li a{
+    color: blue;
+    text-decoration: none;
+    width:190px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    text-shadow: 1px 1px 1px red;
+}
+#nav ul ul{
+    position: absolute;
+    top:31px;
+    visibility: hidden;
+}
+#nav ul li:hover ul{
+    visibility: visible;
+}
+#nav li:hover{
+    background-color: white;
+}
+#nav ul li ul a:hover{
+    color: white;
+    background-color: yellow;
+}
+.face{
+    width: 90px;
+    height: 50px;
+}
+.twitter{
+    width: 90px;
+    height: 50px;
+}
+.insta{
+    width: 90px;
+    height: 50px;
+}
+@media screen and (max-width:500px){
+    #conteneur{
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+    background: url("/home/thiam/Téléchargements/barcaa.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    }
+    body{
+        background:url("/home/thiam/Téléchargements/barcaaa.jpg")no-repeat;
+        background-size: cover;
+    }
+    #header h2{
+        text-align: center;
+        float: none;
+        padding-right: 350px;
+        color: blue;
+        font-size: 20px;
+    }
+    .logo{
+        height: 50px;
+        width: 157px;
+    }
+    #header{
+        border:2px solid black;
+        margin: 4px;
+        border-spacing: 10px;
+        background: cadetblue;
+        display: none;
+    }
+    #section{
+        border: 2px solid black;
+        margin: 4px;
+        margin-bottom: 10px;
+        widows: 100%;
+        height: 100%;
+        position: relative;
+    }
+    #footer{
+        height: 5%;
+        width: 5%;
+    }
+    .partie1{
+        width:5%;
+        height:auto;
+    }
+    .partie2{
+        width:5%;
+        height: auto;
+    }
+    .partie3{
+        width: 5%;
+        height: auto;
+    }
+    .face{
+        width: 5%;
+        height: auto;
+    }
+    .twitter{
+        width: 5%;
+        height: auto;
+    }
+    .insta{
+        width: 100%;
+        height: auto;
+    }
+    #nav{
+    padding-right: 90px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 10%;
+    width: 89%;
+    display: block;
+}
+#nav ul{
+    margin: 0px;
+    padding: 0px;
+    line-height: 10px;
+}
+#nav li{
+    list-style: none;
+    float: left;
+    position: relative;
+    background-color:yellowgreen;
+}
+#nav ul li a{
+    color:red;
+    text-decoration: none;
+    width:30px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    text-shadow: 1px 1px 1px red;
+    font-size: 5px;
+}
+#nav ul ul{
+    position: absolute;
+    top:21px;
+    visibility: hidden;
+}
+#nav ul li:hover ul{
+    visibility: visible;
+}
+#nav li:hover{
+    background-color: white;
+}
+#nav ul li ul a:hover{
+    color: white;
+    background-color: blueviolet;
+}
+}
