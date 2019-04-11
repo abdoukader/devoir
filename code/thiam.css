@@ -1,0 +1,123 @@
+#conteneur{
+    
+    border: 2px solid black;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+body{
+    background: burlywood;
+}
+#header{
+    border:2px solid black;
+    margin: 4px;
+    border-spacing: 10px;
+    background: darkgrey;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    text-align: center;
+}
+#nav ul li{
+    display: inline-block;
+    text-align: center;
+    margin-left: 0.5px;
+    color: chartreuse;
+}
+#nav ul li a{
+    display:block;
+    width:210px;
+    color:red;
+    text-decoration: none;
+    float:left;
+    line-height: 50px;
+    background: sandybrown;
+    text-align: center;
+}
+#nav ul li a:hover {
+    background: chocolate;
+    color:white;
+}
+#nav ul li .submenue li{
+    display:none;
+    }
+#nav ul li:hover .submenue li{
+        display:block;
+        }
+
+#section{
+    border: 2px solid black;
+    margin: 4px;
+    margin-bottom: 10px;
+    widows: 100%;
+    height: 66%;
+    position: relative;
+}
+#footer{
+    border: 2px solid black;
+    margin: 4px;
+    height: 10%;
+}
+#grand{
+    border: 2px solid black;
+    margin: 4px;
+    margin-left: 10px;
+    height: 400px;
+    width: 70%;
+    margin-bottom: 0px;
+}
+#moyenne{
+   
+    border: 2px solid black;
+    height: 230px;
+    width: 27%;
+    margin: 4px;
+    margin-left: 638px;
+    margin-top: -403px;
+}
+#petite{
+   
+    border: 2px solid black;
+    margin-left: 638px;
+    height: 160px;
+    width: 27%;
+    margin-bottom: 0px;
+}
+.logo{
+    height: 90px;
+    width: 90px;
+}
+
+
+
+.partie1{
+    border:2px solid black;
+    margin:4px;
+    width:282px;
+    height:50px;
+}
+.partie2{
+    border:2px solid black;
+    margin:4px;
+    width:310px;
+    height: 50px;
+    margin-left: 290PX;
+    margin-top: -58px;
+}
+.partie3{
+    border: 2px solid black;
+    margin: 4px;
+    width: 282px;
+    height: 50px;
+    margin-left: 600px;
+    margin-top: -58px;
+}
+.submenue li a{
+    padding: 10px;
+    font-size: 13px;
+    color: blue;
+    width:270px;
+}
